@@ -15,13 +15,13 @@ The application will leverage transport protocols, specifically TCP, to provide 
 
 ## Functionalities
 
-1 Transaction Processing : Handles the execution of financial transactions, ensuring they are processed reliably and accurately. This module is crucial for maintaining the integrity and consistency of account data.
-•	User Side: Initiates transactions like transfers, payments, or withdrawals through a banking interface.
-•	Server Side: Processes transactions by updating account balances and ensuring ACID properties, logging each transaction for consistency.
+1. Transaction Processing : Handles the execution of financial transactions, ensuring they are processed reliably and accurately. This module is crucial for maintaining the integrity and consistency of account data.
+* User Side: Initiates transactions like transfers, payments, or withdrawals through a banking interface.
+* Server Side: Processes transactions by updating account balances and ensuring ACID properties, logging each transaction for consistency.
 
-Data Security: Protects sensitive information by encrypting communications and implementing secure authentication methods. Security measures include SSL/TLS encryption and secure key management.
-•	User Side: Enters sensitive data (e.g., passwords, personal info) via encrypted forms.
-•	Server Side: Encrypts data at rest and in transit using SSL/TLS, manages encryption keys, and enforces secure data storage.
+2. Data Security: Protects sensitive information by encrypting communications and implementing secure authentication methods. Security measures include SSL/TLS encryption and secure key management.
+* User Side: Enters sensitive data (e.g., passwords, personal info) via encrypted forms.
+* Server Side: Encrypts data at rest and in transit using SSL/TLS, manages encryption keys, and enforces secure data storage.
 
 
 Account Management: Manages user accounts, including data retrieval and updates, ensuring only authorized access is granted.
