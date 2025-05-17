@@ -1,7 +1,13 @@
 # Banking-Application-with-TCP-Based-Communication-for-Financial-Transactions
 The Financial Systems and Banking Software project is aimed at developing a secure and robust application for processing transactions, managing account data, and ensuring reliable communication between financial institutions.
 
-
+## Table of Contents
+- [Project Description](#project-description)
+- [Stages in Trade Lifecycle](#stages-in-trade-lifecycle)
+- [Challenges](#challenges)
+- [Output](#output)
+- [Conclusion](#conclusion)
+- [Usage](#usage)
 
 ## Project Description
 
