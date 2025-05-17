@@ -4,8 +4,8 @@ The Financial Systems and Banking Software project is aimed at developing a secu
 ## Table of Contents
 - [Project Description](#project-description)
 - [Functionalities](#functionalities)
-- [Challenges](#challenges)
-- [Output](#output)
+- [System Requirements](#system-requirements)
+- [Installation](#installation)
 - [Conclusion](#conclusion)
 - [Usage](#usage)
 
@@ -38,8 +38,24 @@ The application will leverage transport protocols, specifically TCP, to provide 
 *	User Side: Receives notifications or alerts in case of errors during transactions.
 *	Server Side: Detects and logs errors during transactions, triggering retry mechanisms or notifying administrators.
 
-
 6. User Authentication and Access Control:
 Manages the verification of user identities using methods like passwords,     biometrics, and two-factor authentication (2FA).
 *	User Side: Logs in using passwords, biometrics, or 2FA to access banking services.
 *	Server Side: Verifies user credentials, assigns roles, and grants access based on user permissions.
+
+
+## System Requirements
+
+- Python 3.7 or above
+- OS: Linux / Windows / macOS
+- Open network ports: `9999` (Server) and `10001` (Client)
+- Wireshark (optional, for network traffic analysis)
+
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/banking-tcp-app.git
+cd banking-tcp-app
+
