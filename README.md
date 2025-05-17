@@ -24,22 +24,22 @@ The application will leverage transport protocols, specifically TCP, to provide 
 * Server Side: Encrypts data at rest and in transit using SSL/TLS, manages encryption keys, and enforces secure data storage.
 
 
-Account Management: Manages user accounts, including data retrieval and updates, ensuring only authorized access is granted.
-•	User Side: Accesses account information, updates personal details, or performs transactions.
-•	Server Side: Retrieves and updates account data from the database, enforcing access controls to ensure only authorized changes are made.
+3. Account Management: Manages user accounts, including data retrieval and updates, ensuring only authorized access is granted.
+*	User Side: Accesses account information, updates personal details, or performs transactions.
+*	Server Side: Retrieves and updates account data from the database, enforcing access controls to ensure only authorized changes are made.
 
 
-Communication with External Systems: Integrates with other financial institutions and payment networks, such as SWIFT, to send and receive transaction data securely.
-•	User Side: Requests transactions involving external accounts or services (e.g., wire transfers).
-•	Server Side: Interfaces with external financial systems (e.g., SWIFT) to securely send and receive transaction data.
+4. Communication with External Systems: Integrates with other financial institutions and payment networks, such as SWIFT, to send and receive transaction data securely.
+*	User Side: Requests transactions involving external accounts or services (e.g., wire transfers).
+*	Server Side: Interfaces with external financial systems (e.g., SWIFT) to securely send and receive transaction data.
 
 
-Error Handling and Logging: Monitors transactions and system operations, providing error detection and logging capabilities for troubleshooting and auditing.
-•	User Side: Receives notifications or alerts in case of errors during transactions.
-•	Server Side: Detects and logs errors during transactions, triggering retry mechanisms or notifying administrators.
+5. Error Handling and Logging: Monitors transactions and system operations, providing error detection and logging capabilities for troubleshooting and auditing.
+*	User Side: Receives notifications or alerts in case of errors during transactions.
+*	Server Side: Detects and logs errors during transactions, triggering retry mechanisms or notifying administrators.
 
 
-User Authentication and Access Control:
+6. User Authentication and Access Control:
 Manages the verification of user identities using methods like passwords,     biometrics, and two-factor authentication (2FA).
-•	User Side: Logs in using passwords, biometrics, or 2FA to access banking services.
-•	Server Side: Verifies user credentials, assigns roles, and grants access based on user permissions.
+*	User Side: Logs in using passwords, biometrics, or 2FA to access banking services.
+*	Server Side: Verifies user credentials, assigns roles, and grants access based on user permissions.
