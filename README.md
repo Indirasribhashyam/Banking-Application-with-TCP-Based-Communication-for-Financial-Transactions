@@ -56,9 +56,8 @@ Manages the verification of user identities using methods like passwords,     bi
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/banking-tcp-app.git
+git clone https://github.com/yourusername/banking-tcp-app.git](https://github.com/Indirasribhashyam/Banking-Application-with-TCP-Based-Communication-for-Financial-Transactions.git
 cd banking-tcp-app
-
 ```
 
 ## Running the Project
