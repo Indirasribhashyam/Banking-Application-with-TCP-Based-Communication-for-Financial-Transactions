@@ -6,8 +6,8 @@ The Financial Systems and Banking Software project is aimed at developing a secu
 - [Functionalities](#functionalities)
 - [System Requirements](#system-requirements)
 - [Installation](#installation)
-- [Conclusion](#conclusion)
-- [Usage](#usage)
+- [Running the Project](#running-the-project)
+- [PPT](#ppt)
 
 ## Project Description
 
@@ -58,4 +58,27 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/banking-tcp-app.git
 cd banking-tcp-app
+
+```
+
+## Running the Project
+
+### 1. Run the Server
+
+To run the server, execute the following command on the **server VM**:
+
+```bash
+python3 server.py
+```
+
+The server will start listening on port 9999. *The IP address used in the code should be updated to match the server VM's IP.*
+
+### 2. Run the Client
+
+To simulate multiple clients, run the following command on each **client VM**:
+
+```bash
+python3 client.py
+```
+
 
