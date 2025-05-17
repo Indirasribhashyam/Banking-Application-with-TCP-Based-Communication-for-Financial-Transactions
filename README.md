@@ -15,7 +15,7 @@ The application will leverage transport protocols, specifically TCP, to provide 
 
 ## Functionalities
 
-* Transaction Processing *: Handles the execution of financial transactions, ensuring they are processed reliably and accurately. This module is crucial for maintaining the integrity and consistency of account data.
+1 Transaction Processing : Handles the execution of financial transactions, ensuring they are processed reliably and accurately. This module is crucial for maintaining the integrity and consistency of account data.
 •	User Side: Initiates transactions like transfers, payments, or withdrawals through a banking interface.
 •	Server Side: Processes transactions by updating account balances and ensuring ACID properties, logging each transaction for consistency.
 
